@@ -1,0 +1,7 @@
+.env
+*.sql
+*.sql.gz
+backup/
+wp-config.php
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
