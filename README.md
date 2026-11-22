@@ -18,7 +18,7 @@ Na raiz do projeto:
 docker compose up -d
 ```
 
-O serviço `wordpress-init` instala o WordPress quando necessário, define o nome, idioma, fuso horário e administrador, e instala/ativa os três plugins. Na primeira execução, aguarde esse processo terminar:
+O serviço `wordpress-init` instala o WordPress quando necessário, define o título do site a partir de `WP_SITE_TITLE`, o idioma, o fuso horário e o administrador, e instala/ativa os três plugins. Na primeira execução, aguarde esse processo terminar:
 
 ```powershell
 docker compose logs -f wordpress-init
