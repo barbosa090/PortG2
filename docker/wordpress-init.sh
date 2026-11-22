@@ -21,6 +21,8 @@ if ! wp core is-installed; then
         --locale=pt_BR
 fi
 
+wp option update home "${WORDPRESS_URL}"
+wp option update siteurl "${WORDPRESS_URL}"
 wp option update blogname "${WP_SITE_TITLE}"
 wp option update timezone_string "${TZ}"
 wp language core install pt_BR --activate

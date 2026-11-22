@@ -29,6 +29,8 @@ O login do administrador é `gustavo-lima-barbosa`, com nome de exibição `GUST
 - Site: <http://localhost:8080>
 - Administração: <http://localhost:8080/wp-admin>
 
+Ao executar diretamente pelo XAMPP, use <http://localhost/PortG2> e <http://localhost/PortG2/wp-admin>. O `wp-config.php` usa esse endereço como padrão; o Docker define separadamente `http://localhost:8080`.
+
 ## Comandos úteis
 
 ```powershell

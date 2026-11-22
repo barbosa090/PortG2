@@ -92,6 +92,8 @@ define( 'WP_DEBUG', false );
 define( 'WP_MEMORY_LIMIT', getenv( 'WP_MEMORY_LIMIT' ) ?: '512M' );
 define( 'WP_MAX_MEMORY_LIMIT', getenv( 'WP_MAX_MEMORY_LIMIT' ) ?: '512M' );
 
+define( 'WP_HOME', getenv( 'WP_HOME' ) ?: 'http://localhost/PortG2' );
+define( 'WP_SITEURL', getenv( 'WP_SITEURL' ) ?: 'http://localhost/PortG2' );
 
 /* That's all, stop editing! Happy publishing. */
 
