@@ -1,4 +1,6 @@
 .env
+*.daf
+wp-content/duplicator-backups/
 *.sql
 *.sql.gz
 backup/

@@ -95,6 +95,7 @@ define( 'WP_MAX_MEMORY_LIMIT', getenv( 'WP_MAX_MEMORY_LIMIT' ) ?: '512M' );
 define( 'WP_HOME', getenv( 'WP_HOME' ) ?: 'http://localhost/PortG2' );
 define( 'WP_SITEURL', getenv( 'WP_SITEURL' ) ?: 'http://localhost/PortG2' );
 
+define( 'DUPLICATOR_AUTH_KEY', '3AY[[qL{;*.%}sw}|F(8JVbTL(eyxNTc-,a3TR@;/Dp1ih&TJG2<JbRPF,IM5Dk(' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
